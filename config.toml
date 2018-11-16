@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://djoernal.netlify.com"
+baseurl = "https://djoernal.netlify.com/"
 languageCode = "en"
 title = "Djoernal"
 theme = "hugo-theme-cactus-plus"
