@@ -3,12 +3,13 @@ baseurl = "https://djoernal.netlify.com/"
 languageCode = "en"
 title = "Djoernal"
 theme = "hugo-theme-cactus-plus"
+# theme = "hugo-paper"
 # googleAnalytics = "your_google_analytics_id"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
 [params]
-	author = "Andre Christoga Pramaditya"
+	author = "AC Pramaditya"
 	description = "Not your ordinary journal."
 	bio = "Open mindedness is the key for a better world."
 
