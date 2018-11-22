@@ -1,0 +1,35 @@
+# Site settings
+title:          Djoernal
+description:    ""
+baseurl:        ""
+url:            "https://djoernal.netlify.com"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Andre C. Pramaditya
+  url:          https://acp.github.io
+  email:        caxvisw@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:title
+paginate:       5
