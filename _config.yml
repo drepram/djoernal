@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Andre C. Pramaditya
+  name:         Andre Christoga Pramaditya
   url:          https://acp.github.io
-  email:        caxvisw@gmail.com
+  email:        caxvis@gmail.com
 
 # Build settings
 markdown:       kramdown
