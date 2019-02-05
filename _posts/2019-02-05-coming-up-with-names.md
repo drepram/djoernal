@@ -21,4 +21,4 @@ and it looked funnier.
 ### Conclusion
 
 Well I guess one way to find a name would be by reading any articles, not just tech articles. 
-~You could also find a name such as Aviato by getting stoned but I wouldn't recommend that.~
+~~You could also find a name such as Aviato by getting stoned but I wouldn't recommend that.~~
