@@ -22,3 +22,7 @@ and it looked funnier.
 
 Well I guess one way to find a name would be by reading any articles, not just tech articles. 
 ~~You could also find a name such as Aviato by getting stoned but I wouldn't recommend that.~~
+
+---
+
+Update : The name `Wacktoo` sounded wacky later on, so I ended up renaming it to [Acepan](https://github.com/acepan).
