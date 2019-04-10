@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://acp.github.io/djoernal/feed.xml" rel="self" type="application/atom+xml" /><link href="https://acp.github.io/djoernal/" rel="alternate" type="text/html" /><updated>2019-04-10T17:48:58+07:00</updated><id>https://acp.github.io/djoernal/feed.xml</id><title type="html">Djoernal</title><subtitle></subtitle><author><name>Andre Christoga Pramaditya</name><email>caxvis@gmail.com</email></author><entry><title type="html">Coming Up With Names</title><link href="https://acp.github.io/djoernal/coming-up-with-names" rel="alternate" type="text/html" title="Coming Up With Names" /><published>2019-02-05T00:00:00+07:00</published><updated>2019-02-05T00:00:00+07:00</updated><id>https://acp.github.io/djoernal/coming-up-with-names</id><content type="html" xml:base="https://acp.github.io/djoernal/coming-up-with-names">&lt;p&gt;The name of my software house, &lt;code class=&quot;highlighter-rouge&quot;&gt;Wacktoo&lt;/code&gt; actually came to my mind when I was reading this one article about how 
+Stephen Hawking fights the Religion Dogma.&lt;/p&gt;
+
+&lt;p&gt;One of the sentences from the article was 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Hawking's distrust of religion originated from the zeitgeist era of the 1960s&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The word &lt;code class=&quot;highlighter-rouge&quot;&gt;zeitgeist&lt;/code&gt; reminded me of the company, ZEIT, which means time in German, 
+I then think of naming my company Waktu, 
+but then I realized that the name would probably be hard to spell and the usernames for it are taken. 
+I then thought of using an alternative spelling for it, &lt;code class=&quot;highlighter-rouge&quot;&gt;Wacktoo&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It would sound the same, 
+but this one actually had both the Twitter &amp;amp; GitHub usernames avaialable for it, 
+and it looked funnier.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Well I guess one way to find a name would be by reading any articles, not just tech articles. 
+&lt;del&gt;You could also find a name such as Aviato by getting stoned but I wouldn’t recommend that.&lt;/del&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Update : The name &lt;code class=&quot;highlighter-rouge&quot;&gt;Wacktoo&lt;/code&gt; sounded wacky later on, so I ended up renaming it to &lt;a href=&quot;https://github.com/acepan&quot;&gt;Acepan&lt;/a&gt;.&lt;/p&gt;</content><author><name>Andre Christoga Pramaditya</name><email>caxvis@gmail.com</email></author><summary type="html">The name of my software house, Wacktoo actually came to my mind when I was reading this one article about how Stephen Hawking fights the Religion Dogma.</summary></entry><entry><title type="html">Adding a new subdomain on Netlify</title><link href="https://acp.github.io/djoernal/netlify-subdomain" rel="alternate" type="text/html" title="Adding a new subdomain on Netlify" /><published>2019-01-16T00:00:00+07:00</published><updated>2019-01-16T00:00:00+07:00</updated><id>https://acp.github.io/djoernal/netlify-subdomain</id><content type="html" xml:base="https://acp.github.io/djoernal/netlify-subdomain">&lt;p&gt;I hosted 2 sites with a custom domain on Netlify, it’s been such a great experience, 
+but I wanted to add a subdomain and sometimes, it just doesn’t work. So here it is, the list.&lt;/p&gt;
+
+&lt;p&gt;Simply :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make a new branch, we can call it &lt;code class=&quot;highlighter-rouge&quot;&gt;baru&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Change a bit of the content on the &lt;code class=&quot;highlighter-rouge&quot;&gt;baru&lt;/code&gt; branch&lt;/li&gt;
+  &lt;li&gt;Go to domain settings on the Netlify dashboard&lt;/li&gt;
+  &lt;li&gt;Add the branch name manually to the branch subdomains box&lt;/li&gt;
+  &lt;li&gt;Click trigger deploy&lt;/li&gt;
+  &lt;li&gt;Change a bit of the content on the local and then push it to the &lt;code class=&quot;highlighter-rouge&quot;&gt;baru&lt;/code&gt; branch&lt;/li&gt;
+  &lt;li&gt;Wait for about 5-30 mins&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I won’t go into details, but this works. I searched the web for steps but most of them didn’t work for me.&lt;/p&gt;
+
+&lt;p&gt;If you do know that’s there’s a better way than this, open an issue on the &lt;a href=&quot;https://github.com/acp/djoernal/issues/new&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;djoernal&lt;/code&gt;&lt;/a&gt; repository to help improve the content.&lt;/p&gt;</content><author><name>Andre Christoga Pramaditya</name><email>caxvis@gmail.com</email></author><summary type="html">I hosted 2 sites with a custom domain on Netlify, it’s been such a great experience, but I wanted to add a subdomain and sometimes, it just doesn’t work. So here it is, the list.</summary></entry><entry><title type="html">My First Post</title><link href="https://acp.github.io/djoernal/my-first-post" rel="alternate" type="text/html" title="My First Post" /><published>2018-11-16T00:00:00+07:00</published><updated>2018-11-16T00:00:00+07:00</updated><id>https://acp.github.io/djoernal/my-first-post</id><content type="html" xml:base="https://acp.github.io/djoernal/my-first-post">&lt;p&gt;Hi, it’s Andre. I really hope that this journal will be the last one that I make. I’ve created probably more than five journals and most of them are only filled with hello world posts. So hopefully, this is the last one.&lt;/p&gt;
+
+&lt;p&gt;Also, you might wonder why the name of this site is &lt;code class=&quot;highlighter-rouge&quot;&gt;Djoernal&lt;/code&gt;, well the Van Ophuijsen spelling is one of my interest since I kinda like how it looks sophisticated. So anyway &lt;code class=&quot;highlighter-rouge&quot;&gt;Djoernal&lt;/code&gt; is the old way of writing &lt;code class=&quot;highlighter-rouge&quot;&gt;Jurnal&lt;/code&gt;, the indonesian equivalent of &lt;code class=&quot;highlighter-rouge&quot;&gt;Journal&lt;/code&gt;. The name &lt;code class=&quot;highlighter-rouge&quot;&gt;Djoernal&lt;/code&gt; is also available on Netlify so I guess it’s a nice name.&lt;/p&gt;
+
+&lt;p&gt;Besides the Van Ophuijsen spelling, there’s tons of things that triggers my dopamine, oxytocin, serotonin, and endorphins hormones &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Starting from Lomographic Photos, Historical Events to Human Rights and many more.&lt;/p&gt;
+
+&lt;p&gt;I speak Indonesia natively, but speaking English fluently helped me gain more information over the internet. If that wasn’t enough, the language itself gave me friends over the internet.  So yeah. That’s it.&lt;/p&gt;
+
+&lt;p&gt;I’m planning on writing about the new movie (at this time) Bohemian Rhapsody. So yeah, stay tuned for that!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Those 4 words are the hormones that’s going to be triggered by your brain if you’re happy. I think. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Andre Christoga Pramaditya</name><email>caxvis@gmail.com</email></author><summary type="html">Hi, it’s Andre. I really hope that this journal will be the last one that I make. I’ve created probably more than five journals and most of them are only filled with hello world posts. So hopefully, this is the last one.</summary></entry></feed>
