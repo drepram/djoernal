@@ -1,3 +1,2 @@
 User-agent: *
 Sitemap: https://blog.mingjie.info/sitemap.xml
-Disallow: /.sass-cache
