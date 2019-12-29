@@ -1,4 +1,7 @@
 {
     "version": 2,
-    "alias": "djoernal.drepram.com"
+    "alias": "djoernal.drepram.com",
+    "builds": [
+        { "src": "*.html", "use": "@now/static" }
+    ]
 }
