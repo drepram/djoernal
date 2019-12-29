@@ -1,16 +1,16 @@
 # Site settings
 title:          Djoernal
-description:    ""
+description:    "drepram's journal"
 baseurl:        ""
-url:            "https://djoernal.netlify.com"
+url:            "https://djoernal.drepram.com"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA—122570966-9
 
 # Author
 author:
   name:         Andre Christoga Pramaditya
-  url:          https://acp.github.io
+  url:          https://drepram.com
   email:        caxvis@gmail.com
 
 # Build settings

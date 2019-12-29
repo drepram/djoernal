@@ -17,4 +17,4 @@ Simply :
 
 I won't go into details, but this works. I searched the web for steps but most of them didn't work for me.
 
-If you do know that's there's a better way than this, open an issue on the <a href="https://github.com/acp/djoernal/issues/new">`djoernal`</a> repository to help improve the content.
+If you do know that's there's a better way than this, open an issue on the <a href="https://github.com/drepram/djoernal/issues/new">`djoernal`</a> repository to help improve the content.
