@@ -32,5 +32,5 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:title
+permalink:      /:title.html
 paginate:       5
