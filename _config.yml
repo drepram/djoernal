@@ -3,15 +3,29 @@ title:          djoernal
 description:    "the journal of drepram"
 baseurl:        ""
 url:            "https://blog.drepram.com"
+image:          "asserts/apple-touch-icon.png"
+lang:           "en"
+logo:           "asserts/apple-touch-icon.png"
 
 # Google Analytics
 google_analytics: UA—122570966-9
+twitter:
+  username: drepram
+  card: summary
 
 # Author
 author:
   name:         Andre Christoga Pramaditya
   url:          https://drepram.com
   twitter:      "@drepram"
+
+social:
+  name: drepram
+  links:
+    - https://twitter.com/drepram
+    - https://www.linkedin.com/in/drepram
+    - https://github.com/drepram
+    - https://keybase.io/drepram
 
 # Build settings
 markdown:       kramdown
