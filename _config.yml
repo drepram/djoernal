@@ -11,8 +11,7 @@ google_analytics: UA—122570966-9
 author:
   name:         Andre Christoga Pramaditya
   url:          https://drepram.com
-  email:        caxvis@gmail.com
-  twitter:      @drepram
+  twitter:      "@drepram"
 
 # Build settings
 markdown:       kramdown
