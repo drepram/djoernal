@@ -1,6 +1,6 @@
 # Site settings
 title:          djoernal
-description:    "drepram's journal"
+description:    "the journal of drepram"
 baseurl:        ""
 url:            "https://blog.drepram.com"
 
@@ -12,6 +12,7 @@ author:
   name:         Andre Christoga Pramaditya
   url:          https://drepram.com
   email:        caxvis@gmail.com
+  twitter:      @drepram
 
 # Build settings
 markdown:       kramdown
