@@ -1,5 +1,5 @@
 ---
-layout: postdefault
+layout: default
 ---
 
 <div class="post">
@@ -9,6 +9,10 @@ layout: postdefault
 
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
+
+  {% if page.image %}
+  <img src="{{ page.image.src }}" alt="{{ page.image.alt }}">
+  {% endif %}
 
   {{ content }}
 
