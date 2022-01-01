@@ -49,6 +49,7 @@ title: "List of Books, Documents, and Essays that I have"
        * Sedjarah Singkat Universitas Indonesia.pdf
        * Soe Hok Gie - Catatan Seorang Demonstran.pdf
        * Sutan Sjahrir - Perjuangan Kita-Anjing Galak Penerbitan (2010).pdf
+       * The Colour Curtain  A Report on the Bandung Conference by Richard Wright (z-lib.org)
        * Uranium Indonesia dalam Zaman Atoom Kiamat Bikinan by Semaun (z-lib.org).pdf
        * pamong-praja.pdf
        * student-hijo.pdf
