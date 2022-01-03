@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "List of Books, Documents, and Essays that I have"
+usemathjax: true
 tags: metaself
 ---
 
@@ -9,7 +10,11 @@ tags: metaself
 
 > This blog post will be updated from time to time. The collection compiled here contains materials conveyed in multiple languages.
 
-##### If there is a material here that you want, feel free to hit me up at [https://twitter.com/drepram](https://twitter.com/drepram) or elsewhere. Happy readings!
+##### If there is a material here that you want, feel free to hit me up at [https://twitter.com/drepram](https://twitter.com/drepram) or elsewhere. 
+
+$$
+\text{Happy readings!}
+$$
 
 * General
   * Atheism

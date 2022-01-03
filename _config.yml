@@ -45,4 +45,4 @@ plugins:
 permalink:      /:title.html
 paginate:       5
 
-disqus:   drepram
+disqus:   djoernal
