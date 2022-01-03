@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://blog.mingjie.info/sitemap.xml
+Sitemap: 

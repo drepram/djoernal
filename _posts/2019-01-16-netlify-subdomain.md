@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adding a new subdomain on Netlify"
+tags: software
 ---
 I hosted 2 sites with a custom domain on Netlify, it's been such a great experience, 
 but I wanted to add a subdomain and sometimes, it just doesn't work. So here it is, the list.

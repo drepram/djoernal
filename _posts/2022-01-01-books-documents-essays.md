@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "List of Books, Documents, and Essays that I have"
+tags: metaself
 ---
+
+<!-- Right now uses this: https://dev.to/l04db4l4nc3r/vim-to-the-rescue-tree-to-markdown-57oc?signin=true -->
+<!-- Could use this:  https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md -->
 
 > This blog post will be updated from time to time. The collection compiled here contains materials conveyed in multiple languages.
 

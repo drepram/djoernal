@@ -2,7 +2,7 @@
   &-item {
     border-bottom: 1px solid $grey-2;
     color: $default-color;
-    display: inline-block;
+    display: block;
     padding: 2rem 0;
 
     &:hover .catalogue-line,
@@ -13,6 +13,12 @@
     &:last-child {
       border: 0;
     }
+  }
+
+  &-pinned {
+    color: $default-tint;
+    font-family: $serif-secondary;
+    letter-spacing: .5px;
   }
 
   &-time {
