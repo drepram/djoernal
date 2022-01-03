@@ -68,13 +68,13 @@ But it still wouldn't work because of the div on line 115 (shown below) being un
 
 Anyways, I spent some time away from the code because an ordered food arrived and I ate crispy deep grilled mushrooms with plain white rice, it wasn't the most pleasant meal to have for a night but I wasn't having the best time with code either lol. I watched some film recaps and finished my food, and this is where I start to crawl to the solution.
 
-Around 30 minutes before the food arrived, I was refilling my water bottle(s) and as I was doing that, a friend of mine sent me an article on Telegram. I was on my phone and I clicked on it via the _Instant View_ feature but it didn't quite worked, paywalled. I then try to recall the name of a site that could work for this kind of situation, and then remembered it was [https://scribe.rip], I tried that on my phone and it worked, but I put no thought into it till I finished my meal.
+Around 30 minutes before the food arrived, I was refilling my water bottle(s) and as I was doing that, a friend of mine sent me an article on Telegram. I was on my phone and I clicked on it via the _Instant View_ feature but it didn't quite worked, paywalled. I then try to recall the name of a site that could work for this kind of situation, and then remembered it was [https://scribe.rip](https://scribe.rip), I tried that on my phone and it worked, but I put no thought into it till I finished my meal.
 
-As it occurred to me, maybe I don't have to be limited by Medium's weird UI. I went onto [https://scribe.rip] with the articles I needed to download but... it wasn't exactly the best view you've seen in this millennium:
+As it occurred to me, maybe I don't have to be limited by Medium's weird UI. I went onto [https://scribe.rip](https://scribe.rip) with the articles I needed to download but... it wasn't exactly the best view you've seen in this millennium:
 
 <img src="assets/posts/2022/medium-pdf/image4.png" />
 
-And so, with some time searching on GitHub (`web to pdf`) I stumble across [https://github.com/danburzo/percollate]. As I've written above, the solution for me was simple:
+And so, with some time searching on GitHub (`web to pdf`) I stumble across [https://github.com/danburzo/percollate](https://github.com/danburzo/percollate). As I've written above, the solution for me was simple:
 
 ```
 percollate pdf --individual https://scribe.rip/@astro-hmdfui/inpherence-3-the-little-useful-device-gyroscope-d1fedd4e17e https://scribe.rip/@astro-hmdfui/photrait-4-marie-curie-4883c40e9f09 https://scribe.rip/@astro-hmdfui/photrait-james-prescott-joule-85ea63624a33 https://scribe.rip/@astro-hmdfui/inpherence-sejarah-elektronika-semikonduktor-dan-transistor-7cb978ca5298 https://scribe.rip/@astro-hmdfui/albert-abraham-michelson-4bcf20bf6969 https://scribe.rip/@astro-hmdfui/inpherence-2-mengapa-langit-memiliki-warna-dan-berwarna-biru-pada-siang-hari-1a6c80b583ba https://scribe.rip/@astro-hmdfui/photrait-3-jonas-ferdinand-gabriel-lippmann-836fa79b8d76 
