@@ -12,6 +12,10 @@ tags: metaself
 
 ##### If there is a material here that you want, feel free to hit me up at [https://twitter.com/drepram](https://twitter.com/drepram) or elsewhere.
 
+$$
+\large{Happy\text{ }readings!}
+$$
+
 * General
   * Atheism
     * Gray, John - Seven Types of Atheism (2018, Penguin Books Ltd Allen Lane) - libgen.lc.epub
