@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     tale (0.1.4)
-      jekyll (~> 3.6)
+      jekyll (~> 3.8.5)
       jekyll-feed
       jekyll-paginate (~> 1.1)
       jekyll-seo-tag (~> 2.5.0)
