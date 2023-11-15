@@ -1,6 +1,6 @@
 # Site settings
 title:          djoernal
-description:    "the journal of drepram"
+description:    "scribbles after dusk"
 baseurl:        ""
 url:            "https://blog.drepram.com"
 image:          "assets/apple-touch-icon.png"
@@ -12,7 +12,7 @@ google_analytics: UA—122570966-9
 
 # Author
 author:
-  name:         Andre Christoga Pramaditya
+  name:         Andre C. Pramaditya
   url:          https://drepram.com
   twitter:      "@drepram"
 
