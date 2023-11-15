@@ -26,7 +26,7 @@ aek, nambur, las ni ari||air, embun, panas matahari
 molo i manjadi ||kalau itu terjadi 
 mate malos bunga i... ||mati layu bunga itu
 
-> Words that are in italics are the ones I was not able to find the meaning of. _Maridi_ is translated to **berenang** (swimming) instead of **mandi** (bathing) because I would like to imagine the songwriter thought of Lake Toba while composing it. I do not know what **pajekkar** means, hence I would assume it means **mekar** (bloom) given the syllable similarities.
+Words that are in italics are the ones I was not able to find the meaning of. _Maridi_ is translated to **berenang** (swimming) instead of **mandi** (bathing) because I would like to imagine the songwriter thought of Lake Toba while composing it. I do not know what **pajekkar** means, hence I would assume it means **mekar** (bloom) given the syllable similarities.
 
 Translated contextually into English, the song means something like this:
 
@@ -37,7 +37,7 @@ Translated contextually into English, the song means something like this:
 ---
 
 
-This is a new series, it is called **rekindled**. As some of my friends know, the vibrant and cosmopolitan culture of pre-1965 Indonesia holds a dear place in my heart, be it Djakartawood [^1] or other art produced during that period. Barely 20 years old, the Indonesian Republic and its art scenes were as stunning as how French revolutionary writers would write of the May 1968 social revolution in the early days; idealistic and a little bit naive.
+This is a new series, it is called **rekindled**. As some of my friends know, the vibrant and cosmopolitan culture of pre-1965 Indonesia holds a dear place in my heart, be it Djakartawood [^1] or other art produced during that period. Barely 20 years old, the Indonesian Republic and its art scenes were as stunning as how French revolutionary writers would write of the May 1968 social revolution in the early days: idealistic and a little bit naive.
 
 As we live in the present day, we see what holds the tests of time and what doesn't. Most of the time I'm surprised at how artists -- given their limited technologies -- were still able to produce work that does not feel ordered by someone, but rather something that is squeezed out of their hearts. Technologies may differ, but what one feels inside cannot. Moving on, perhaps in the future, we will see writings of rekindled movies, rekindled books, etc. but today we will be rekindling a song.
 
