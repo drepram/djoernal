@@ -10,6 +10,7 @@ tags: opinion
 >
 > 
 > -- [_Mustikarama - **Sampaikanlah Salamku** (disesuaikan), 1962_](https://www.youtube.com/watch?v=xKWL3MBg8D4)
+
 <br>
 Satu hal yang saya ketahui sejak sebelum bertolak ke Negeri Kincir Angin adalah sistem pendidikannya yang inovatif. Hal ini terlihat dari berbagai jalur pendidikan pra-universitas yang mereka sediakan untuk anak‐anak, remaja, dan orang muda.  Selain itu, saya cukup terkejut ketika konsep periode dalam satu semester diperkenalkan, yakni beberapa mata kuliah yang hanya berlangsung selama setengah semester.
 
