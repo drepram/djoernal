@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beberapa hal spesial seputar Negeri Belanda"
+title: "Beberapa hal istimewa seputar Negeri Belanda"
 tags: opinion
 ---
 
