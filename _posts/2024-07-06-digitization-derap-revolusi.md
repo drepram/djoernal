@@ -4,13 +4,13 @@ title: "Digitization of a vintage book with ImageMagick: Sobron Aidit's ‘Derap
 tags: software
 ---
 
-Ever since my senior year of high school, I had this hobby of reading and collecting vintage books. This year,  I want to start digitization things to make access to them -- if possible -- easier. 
+Ever since my senior year of high school, I had this hobby of reading and collecting vintage books. This year, I want to start digitizing things to make access to them -- if possible -- easier. 
 
 By coincidence, I came across one work by an Indonesian author (Sobron Aidit) titled **Derap Revolusi** (*The March of the Revolution*) which was published in 1962 by **Lembaga Kebudajaan Rakjat** (*Institute for the People's Culture*). The institute was dissolved around 1965 and their works were banned though the study of their materials is still allowed in some cases, however, I could not find this book's file on the internet.
 
 Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do the task of digitization, I decided to use ImageMagick to convert my two-page PDF scans of the book into a more reader-friendly one-page format.
 
-To see the end product: [click here](https://drive.google.com/file/d/1o-mGwjeIqgEW15cOdsze2Mi5E_ReHEt8/view?usp=sharing). To see the process of digitization it, keep reading.
+To see the end product: [click here](https://drive.google.com/file/d/1o-mGwjeIqgEW15cOdsze2Mi5E_ReHEt8/view?usp=sharing). To see the process of digitizing it, keep reading.
 
 The process herein required precise cropping and a thorough understanding of the PDF layout—specifically, the width, height, and offsets. After the initial scans, several issues emerged. Some images were misaligned, needing different offsets, while others were partially unreadable and had to be rescanned. By converting the PDF to PNG format and utilizing macOS’s Preview app, I was able to measure and adjust the cropping accurately.
 
