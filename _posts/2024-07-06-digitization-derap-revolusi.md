@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Digitizing a vintage book with ImageMagick: Sobron Aidit's ‘Derap Revolusi’"
+title: "Digitization a vintage book with ImageMagick: Sobron Aidit's ‘Derap Revolusi’"
 tags: software
 ---
 
-Ever since my senior year of high school, I had this hobby of reading and collecting vintage books. This year,  I want to start digitizing things to make access to them -- if possible -- easier. 
+Ever since my senior year of high school, I had this hobby of reading and collecting vintage books. This year,  I want to start digitization things to make access to them -- if possible -- easier. 
 
 By coincidence, I came across one work by an Indonesian author (Sobron Aidit) titled **Derap Revolusi** (*The March of the Revolution*) which was published in 1962 by **Lembaga Kebudajaan Rakjat** (*Institute for the People's Culture*). The institute was dissolved around 1965 and their works were banned though the study of their materials is still allowed in some cases, however, I could not find this book's file on the internet.
 
-Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do the task of digitalization, I decided to use ImageMagick to convert my two-page PDF scans of the book into a more reader-friendly one-page format.
+Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do the task of digitization, I decided to use ImageMagick to convert my two-page PDF scans of the book into a more reader-friendly one-page format.
 
-To see the end product: [click here](https://blog.drepram.com/assets/posts/2024/digitizing-derap-revolusi/Sobron%20Aidit%20-%20Derap%20Revolusi%20(1962).pdf). To see the process of digitizing it, keep reading.
+To see the end product: [click here](https://drive.google.com/file/d/1o-mGwjeIqgEW15cOdsze2Mi5E_ReHEt8/view?usp=sharing). To see the process of digitization it, keep reading.
 
 The process herein required precise cropping and a thorough understanding of the PDF layout—specifically, the width, height, and offsets. After the initial scans, several issues emerged. Some images were misaligned, needing different offsets, while others were partially unreadable and had to be rescanned. By converting the PDF to PNG format and utilizing macOS’s Preview app, I was able to measure and adjust the cropping accurately.
 
@@ -20,16 +20,16 @@ To do accurate cropping I must:
   
  After waiting some time for the first scan, the result came back and it looked like this:
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084551.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625084551.png" />
 > image1. first two pages of the book
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084607.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625084607.png" />
 > image2. page 8 and 9 of the book
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084639.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625084639.png" />
 > image3. page 38 and 39 of the book, scanning error shown
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084704.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625084704.png" />
 > image4. page 68 and 69 of the book, showing difference in page position
 
 
@@ -39,11 +39,11 @@ You can see a few problems with the last two images:
 
 For the first problem, the fix was quite simple. I converted my 300 dpi PDF into a bunch of PNGs (`magick -density 300 INPUT_FILE.pdf odd.png`), used the Preview app on macOS, and could easily see and measure the layout and the offset.
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625101304.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625101304.png" />
 > image5. Measuring layout (the dimension yielded here would be different from what I end up using)
 
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625101403.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625101403.png" />
 > image6. Measuring the horizontal offset (see the 288 value)
 
 
@@ -74,7 +74,7 @@ The final dimensions I calculated for the layout of `image2` are as follows:
 
 For `image4`, a different approach is taken:
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084704.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625084704.png" />
 
 As the offset is different, I experimented by not adding an offset to it. Write this into a bash file and don't forget to change the permission (`chmod +x`) of the file.
 ```shell
@@ -100,10 +100,10 @@ But there were some side effects of not specifying an offset. The remaining layo
 
 As for the badly scanned parts of `image3`, I ended up scanning them again but the principles are still the same. Measure the layout and the offset and just crop them en masse. The end products are as follows:
 
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625103824.png" />
-<img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625103847.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625103824.png" />
+<img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625103847.png" />
 
-Since the size is different, the Preview app automatically squeezes them out. That being said I am satisfied with the cropping script written here since it helped me save a lot of time in digitizing this book from decades ago.
+Since the size is different, the Preview app automatically squeezes them out. That being said I am satisfied with the cropping script written here since it helped me save a lot of time in digitization this book from decades ago.
 
 ###### References
 
