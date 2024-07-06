@@ -6,9 +6,9 @@ tags: software
 
 Ever since my senior year of high school, I had this hobby of reading and collecting vintage books. This year,  I want to start digitizing things to make access to them -- if possible -- easier. 
 
-By coincidence, I came across one work by an Indonesian author (Sobron Aidit) titled **Derap Revolusi** (*The March of the Revolution*) that was published in 1962 by **Lembaga Kebudajaan Rakjat** (*Institute for the People's Culture*). The institute was dissolved around 1965 and their works were banned though the study of their materials is still allowed in some cases, however I could not find this book's file on the internet.
+By coincidence, I came across one work by an Indonesian author (Sobron Aidit) titled **Derap Revolusi** (*The March of the Revolution*) which was published in 1962 by **Lembaga Kebudajaan Rakjat** (*Institute for the People's Culture*). The institute was dissolved around 1965 and their works were banned though the study of their materials is still allowed in some cases, however, I could not find this book's file on the internet.
 
-Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do that task, I decided to use ImageMagick to convert the two-page PDF scans of the book into a more reader-friendly one-page format.
+Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do the task of digitalization, I decided to use ImageMagick to convert my two-page PDF scans of the book into a more reader-friendly one-page format.
 
 To see the end product: [click here](https://blog.drepram.com/assets/posts/2024/digitizing-derap-revolusi/Sobron%20Aidit%20-%20Derap%20Revolusi%20(1962).pdf). To see the process of digitizing it, keep reading.
 
@@ -21,13 +21,17 @@ To do accurate cropping I must:
  After waiting some time for the first scan, the result came back and it looked like this:
 
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084551.png" />
-> image1
+> image1. first two pages of the book
+
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084607.png" />
-> image2
+> image2. page 8 and 9 of the book
+
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084639.png" />
-> image3
+> image3. page 38 and 39 of the book, scanning error shown
+
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625084704.png" />
-> image4
+> image4. page 68 and 69 of the book, showing difference in page position
+
 
 You can see a few problems with the last two images: 
 1. `image4` has a different position than `image2` and thus needs a different offset.
@@ -38,13 +42,15 @@ For the first problem, the fix was quite simple. I converted my 300 dpi PDF into
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625101304.png" />
 > image5. Measuring layout (the dimension yielded here would be different from what I end up using)
 
+
 <img src="assets/posts/2024/digitizing-derap-revolusi/Pasted image 20240625101403.png" />
 > image6. Measuring the horizontal offset (see the 288 value)
+
 
 The layout of `image1` as shown in `image5` and `image6` can now be easily cropped with the following bash script and don't forget to change the permission (`chmod +x`) of the file.:
 
 ```shell
-!/bin/bash 
+#!/bin/bash 
 
 for i in {1..19}; do
 
@@ -72,7 +78,7 @@ For `image4`, a different approach is taken:
 
 As the offset is different, I experimented by not adding an offset to it. Write this into a bash file and don't forget to change the permission (`chmod +x`) of the file.
 ```shell
-!/bin/bash 
+#!/bin/bash 
 
 for i in {26..94}; do
 
