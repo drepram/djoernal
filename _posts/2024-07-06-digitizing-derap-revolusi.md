@@ -107,4 +107,4 @@ Since the size is different, the Preview app automatically squeezes them out. Th
 
 ###### References
 
-https://imagemagick.org/script/command-line-processing.php
+[https://imagemagick.org/script/command-line-processing.php](https://imagemagick.org/script/command-line-processing.php)
