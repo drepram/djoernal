@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digitization a vintage book with ImageMagick: Sobron Aidit's ‘Derap Revolusi’"
+title: "Digitization of a vintage book with ImageMagick: Sobron Aidit's ‘Derap Revolusi’"
 tags: software
 ---
 
