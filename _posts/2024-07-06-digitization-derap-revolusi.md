@@ -10,7 +10,7 @@ By coincidence, I came across one work by an Indonesian author (Sobron Aidit) ti
 
 Preserving literary treasures is essential in our digital age, ensuring that classic works remain accessible for future generations. To do the task of digitization, I decided to use ImageMagick to convert my two-page PDF scans of the book into a more reader-friendly one-page format.
 
-To see the end product: [click here](https://drive.google.com/file/d/1o-mGwjeIqgEW15cOdsze2Mi5E_ReHEt8/view?usp=sharing). To see the process of digitizing it, keep reading.
+To see the end product (one of the novelette): [click here](https://drive.google.com/file/d/192A4scOCicpuJkDRUDaTU34EtGoyf4Bs/view?usp=sharing). To see the process of digitizing it, keep reading.
 
 The process herein required precise cropping and a thorough understanding of the PDF layout—specifically, the width, height, and offsets. After the initial scans, several issues emerged. Some images were misaligned, needing different offsets, while others were partially unreadable and had to be rescanned. By converting the PDF to PNG format and utilizing macOS’s Preview app, I was able to measure and adjust the cropping accurately.
 
@@ -37,7 +37,7 @@ You can see a few problems with the last two images:
 1. `image4` has a different position than `image2` and thus needs a different offset.
 2. `image3` was not correctly scanned and its contents are not intelligible for the right side. Thus, not only does it need a different offset, it needs to be scanned again and it would yield a different cropping layout.
 
-For the first problem, the fix was quite simple. I converted my 300 dpi PDF into a bunch of PNGs (`magick -density 300 INPUT_FILE.pdf odd.png`), used the Preview app on macOS, and could easily see and measure the layout and the offset.
+For the first problem, the fix was quite simple. I converted my 300 dpi PDF into a bunch of PNGs (`magick -density 300 INPUT_FILE.pdf image.png`) where they would then be named with indexes ranging from `image-0.png` to `image-94.png` composed of 188 pages of the book. I then used the Preview app on macOS and could easily see and measure the layout and the offset.
 
 <img src="assets/posts/2024/digitization-derap-revolusi/Pasted image 20240625101304.png" />
 > image5. Measuring layout (the dimension yielded here would be different from what I end up using)
@@ -59,10 +59,10 @@ for i in {1..19}; do
 	index2=$(( (i - 1) * 2 + 2 ))
 
 	# Crop left page
-	magick "odd-$i.png" -crop 1360x2100+230 "first_cropping-$index1.png"
+	magick "image-$i.png" -crop 1360x2100+230 "first_cropping-$index1.png"
 
 	# Crop right page
-	magick "odd-$i.png" -crop 1360x2100+1600 "first_cropping-$index2.png"
+	magick "image-$i.png" -crop 1360x2100+1600 "first_cropping-$index2.png"
 
 done
 ```
@@ -86,7 +86,7 @@ for i in {26..94}; do
 	index=$(( (i - 1) * 2 + 1 ))
 
 	# Crop only once
-	magick "odd-$i.png" -crop 1394x2091 "second_cropping-$index.png"
+	magick "image-$i.png" -crop 1394x2091 "second_cropping-$index.png"
 
 done
 ```
