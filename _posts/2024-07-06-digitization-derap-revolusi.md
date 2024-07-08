@@ -92,9 +92,9 @@ done
 ```
 
 The cropping was terrific:
-![[kedua-175-1.png]]
+<img src="assets/posts/2024/digitization-derap-revolusi/kedua-175-1.png" />
 
-![[kedua-177-0.png]]
+<img src="assets/posts/2024/digitization-derap-revolusi/kedua-177-0.png" />
 
 But there were some side effects of not specifying an offset. The remaining layout of the image that wasn't cropped was yielded by ImageMagick as residues, albeit it was easy to dispose of them as the residues had names ending in `-{2,3,4,5}.png` and bash could just remove them by looping.
 
