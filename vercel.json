@@ -1,9 +1,9 @@
 {
+  "framework": "jekyll",
   "buildCommand": "npm install -g vercel@34.3.0 && bundle config set force_ruby_platform true && bundle install && bundle exec jekyll build --trace",
-  "build": {
-    "cache": true,
-    "env": {
-      "BUNDLE_FORCE_RUBY_PLATFORM": "true"
-    }
+  "outputDirectory": "_site",
+  "env": {
+    "BUNDLE_FORCE_RUBY_PLATFORM": "true",
+    "NOKOGIRI_USE_SYSTEM_LIBRARIES": "true"
   }
 }
