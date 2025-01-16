@@ -1,12 +1,8 @@
 {
-  "build": {
-    "env": {
-      "BUNDLE_FORCE_RUBY_PLATFORM": "true"
-    },
-    "commands": [
-      "bundle config set force_ruby_platform true",
-      "bundle install"
-    ]
+  "framework": "jekyll",
+  "buildCommand": "bundle config set force_ruby_platform true && bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "env": {
+    "BUNDLE_FORCE_RUBY_PLATFORM": "true"
   }
 }
-
